@@ -12,8 +12,8 @@ const WeekLearning = (props: WeekLearningProps) => {
 
   return (
     <>
-      <h3 className="mb-5 flex items-center justify-center gap-4 lg:text-xl">
-        <span className="text-nowrap">Week {weeks[currentWeek].week}</span>
+      <h3 className="mb-5 flex flex-col items-center justify-center gap-4 lg:text-xl">
+        <span className="text-lg text-nowrap">Week {weeks[currentWeek].week}</span>
         <span className="font-semibold">{weeks[currentWeek].theme}</span>
       </h3>
       <TranslateSettings />

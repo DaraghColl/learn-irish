@@ -1,24 +1,29 @@
-interface TopicItem {
+interface LearningItem {
   phrase: string;
   translation: string;
 }
 
 interface DayLearning {
+  id: string;
+  title: string;
+  description: string;
   day: number;
-  topic: string;
-  topicItems: TopicItem[];
+  learningItems: LearningItem[];
 }
 
 interface WeekLearning {
+  id: string;
+  title: string;
+  description: string;
   week: number;
-  theme: string;
   days: DayLearning[];
 }
 
 interface MonthLearning {
+  id: string;
   title: string;
   description: string;
   weeks: WeekLearning[];
 }
 
-export type { MonthLearning, WeekLearning, DayLearning, TopicItem };
+export type { MonthLearning, WeekLearning, DayLearning, LearningItem };

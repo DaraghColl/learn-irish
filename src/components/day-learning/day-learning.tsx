@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
 import type { DayLearning as DayLearningI } from '@models/models';
-import { TopicItem } from '@/components/topic-item/topic-item';
+import { LearningItem } from '@/components/learning-item/learning-item';
 
 interface DayLearningProps {
   dayLearning: DayLearningI;
@@ -9,7 +9,7 @@ interface DayLearningProps {
 
 const DayLearning = (props: DayLearningProps) => {
   const { dayLearning } = props;
-  const { day, topic, topicItems } = dayLearning;
+  const { day, title, learningItems } = dayLearning;
   const [isDayOpen, setIsDayOpen] = useState((day - 1) % 7 === 0 ? true : false);
 
   return (
@@ -20,7 +20,7 @@ const DayLearning = (props: DayLearningProps) => {
       >
         <div className="flex items-center gap-4">
           <h3 className="text-nowrap">Day {day}</h3>
-          <h4 className="text-left font-semibold">{topic}</h4>
+          <h4 className="text-left font-semibold">{title}</h4>
         </div>
         <ChevronRight
           className={`${isDayOpen ? 'rotate-90' : ''} transition-all duration-300 ease-in-out`}
@@ -29,11 +29,11 @@ const DayLearning = (props: DayLearningProps) => {
 
       {isDayOpen && (
         <div className="rounded-b-md bg-white p-4">
-          {topicItems.map((item, index) => (
-            <TopicItem
+          {learningItems.map((item, index) => (
+            <LearningItem
               topicItem={item}
               key={item.phrase}
-              isLastItem={index === topicItems.length - 1}
+              isLastItem={index === learningItems.length - 1}
             />
           ))}
         </div>

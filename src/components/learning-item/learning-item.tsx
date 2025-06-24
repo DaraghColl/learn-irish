@@ -1,18 +1,18 @@
 import { useEffect, useState } from 'react';
 import { BookOpenCheck } from 'lucide-react';
 import { useAtom } from 'jotai';
-import type { TopicItem as TopicItemI } from '@models/models';
+import type { LearningItem as LearningItemI } from '@models/models';
 import {
   isTranslationFlipped,
   showAllTranslation,
 } from '@/state/language-settings/language-settings';
 
-interface TopcItemProps {
-  topicItem: TopicItemI;
+interface LearningItemIProps {
+  topicItem: LearningItemI;
   isLastItem: boolean;
 }
 
-const TopicItem = (props: TopcItemProps) => {
+const LearningItem = (props: LearningItemIProps) => {
   const { topicItem, isLastItem } = props;
   const [isTranslationFlippedValue] = useAtom(isTranslationFlipped);
   const [showAllTranslationValue] = useAtom(showAllTranslation);
@@ -51,4 +51,4 @@ const TopicItem = (props: TopcItemProps) => {
   );
 };
 
-export { TopicItem };
+export { LearningItem };

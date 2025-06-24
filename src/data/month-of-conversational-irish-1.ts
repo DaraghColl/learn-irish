@@ -2,7 +2,7 @@ import type { LearningData } from '@/models/models';
 
 const monthOfConversationalIrish1: LearningData = {
   title: 'A Month of Conversational Irish',
-  description: `This month-long plan focuses on building your conversational skills in Irish. We'll concentrate on practical phrases and sentences for everyday interactions, rather than deep grammar rules. The goal is to get you speaking comfortably!`,
+  description: `This month-long plan focuses on building your conversational skills in Irish. We'll concentrate on practical phrases and sentences for everyday interactions, rather than deep grammar rules. The goal is to get you speaking comfortably.`,
   weeks: [
     {
       week: 1,
@@ -12,15 +12,15 @@ const monthOfConversationalIrish1: LearningData = {
           day: 1,
           topic: 'Basic Greetings & Goodbyes',
           topicItems: [
-            { phrase: 'Dia duit!', translation: 'Hello! (to one person)' },
-            { phrase: 'Dia daoibh!', translation: 'Hello! (to more than one person)' },
-            { phrase: 'Slán leat!', translation: 'Goodbye! (to one person, you are leaving)' },
+            { phrase: 'Dia duit.', translation: 'Hello. (to one person)' },
+            { phrase: 'Dia daoibh.', translation: 'Hello. (to more than one person)' },
+            { phrase: 'Slán leat.', translation: 'Goodbye. (to one person, you are leaving)' },
             {
-              phrase: 'Slán libh!',
-              translation: 'Goodbye! (to more than one person, you are leaving)',
+              phrase: 'Slán libh.',
+              translation: 'Goodbye. (to more than one person, you are leaving)',
             },
-            { phrase: 'Oíche mhaith!', translation: 'Good night!' },
-            { phrase: 'Maidin mhaith!', translation: 'Good morning!' },
+            { phrase: 'Oíche mhaith.', translation: 'Good night.' },
+            { phrase: 'Dia duit ar maidin.', translation: 'Good morning.' },
           ],
         },
         {
@@ -32,7 +32,7 @@ const monthOfConversationalIrish1: LearningData = {
               phrase: 'Tá mé go maith, go raibh maith agat.',
               translation: 'I am well, thank you.',
             },
-            { phrase: 'Tá mé go hiontach!', translation: "I'm great!" },
+            { phrase: 'Tá mé go hiontach.', translation: "I'm great." },
             { phrase: 'Níl mé ró-mhaith.', translation: "I'm not too well." },
           ],
         },
@@ -40,8 +40,8 @@ const monthOfConversationalIrish1: LearningData = {
           day: 3,
           topic: 'Introducing Yourself',
           topicItems: [
-            { phrase: 'Cad é an t-ainm atá ort?', translation: 'What is your name?' },
-            { phrase: 'Is mise [do ainm].', translation: 'I am [your name].' },
+            { phrase: 'Cad is ainm duit?', translation: 'What is your name?' },
+            { phrase: '[do ainm] is ainm dom.', translation: '[your name] is my name.' },
             {
               phrase: 'Cé tusa?',
               translation: 'Who are you? (less common for intro, but good to know)',
@@ -54,7 +54,7 @@ const monthOfConversationalIrish1: LearningData = {
           topicItems: [
             { phrase: 'Cá as tú?', translation: 'Where are you from?' },
             { phrase: 'Is as [áit] mé.', translation: 'I am from [place].' },
-            { phrase: 'An as Doire tú?', translation: 'Are you from Derry?' },
+            { phrase: 'An as Dún na nGall tú?', translation: 'Are you from Donegal?' },
           ],
         },
         {
@@ -94,7 +94,7 @@ const monthOfConversationalIrish1: LearningData = {
           topicItems: [
             { phrase: 'Chuaigh mé ag rith inné.', translation: 'I went running yesterday.' },
             { phrase: 'Chuaigh mé ag snámh inné.', translation: 'I went swimming yesterday.' },
-            { phrase: "D'fhéach mé ar an teilifís inné.", translation: 'I watched TV yesterday.' },
+            { phrase: "D'fhéach mé teilifís inné.", translation: 'I watched TV yesterday.' },
           ],
         },
         {
@@ -134,7 +134,7 @@ const monthOfConversationalIrish1: LearningData = {
           day: 12,
           topic: 'Talking About Hobbies/Interests',
           topicItems: [
-            { phrase: 'Is maith liom a bheith ag rith.', translation: 'I like running.' },
+            { phrase: 'Is maith liom ag rith.', translation: 'I like running.' },
             { phrase: 'Is breá liom ceol.', translation: 'I love music.' },
             { phrase: 'An maith leat peil?', translation: 'Do you like football?' },
           ],
@@ -218,7 +218,7 @@ const monthOfConversationalIrish1: LearningData = {
           topic: 'Asking for and Offering Help',
           topicItems: [
             { phrase: 'An féidir leat cabhrú liom?', translation: 'Can you help me?' },
-            { phrase: 'Cinnte!', translation: 'Certainly!' },
+            { phrase: 'Cinnte.', translation: 'Certainly.' },
             { phrase: 'Tá fáilte romhat.', translation: "You're welcome." },
           ],
         },
@@ -294,8 +294,8 @@ const monthOfConversationalIrish1: LearningData = {
           topic: 'General Chit-chat & Closing',
           topicItems: [
             { phrase: 'Go raibh maith agat.', translation: 'Thank you.' },
-            { phrase: 'Níl fáilte romhat.', translation: "You're welcome." },
-            { phrase: 'Go n-éirí leat!', translation: 'Good luck!' },
+            { phrase: 'Tá fáilte romhat.', translation: "You're welcome." },
+            { phrase: 'Go n-éirí leat.', translation: 'Good luck.' },
           ],
         },
         {
@@ -317,7 +317,7 @@ const monthOfConversationalIrish1: LearningData = {
               phrase: 'Cad atá tú ag iarraidh a fhoghlaim next?',
               translation: 'What do you want to learn next?',
             },
-            { phrase: 'Lean ar aghaidh ag labhairt Gaeilge!', translation: 'Keep speaking Irish!' },
+            { phrase: 'Lean ar aghaidh ag labhairt Gaeilge.', translation: 'Keep speaking Irish.' },
           ],
         },
       ],

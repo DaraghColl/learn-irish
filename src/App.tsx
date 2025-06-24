@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { monthOfConversationalIrish1 } from '@data/month-of-conversational-irish-1';
-import { DayLearning } from '@components/day-learning/day-learning';
-import { TranslateSettings } from '@/components/translate-settings/translate-settings';
+import { WeekLearning } from '@components/week-learning/week-learning';
 
 const { title, description, weeks } = monthOfConversationalIrish1;
 
@@ -21,17 +20,7 @@ function App() {
       </div>
 
       <>
-        <h3 className="mb-5 flex items-center justify-center gap-4 lg:text-xl">
-          <span className="text-nowrap">Week {weeks[currentWeek].week}</span>
-          <span className="font-semibold">{weeks[currentWeek].theme}</span>
-        </h3>
-        <TranslateSettings />
-
-        <div className="flex flex-col gap-4">
-          {weeks[currentWeek].days.map((day) => (
-            <DayLearning dayLearning={day} key={day.day} />
-          ))}
-        </div>
+        <WeekLearning weeks={weeks} currentWeek={currentWeek} />
         <div className="mt-5 flex justify-center gap-4">
           <button
             type="button"

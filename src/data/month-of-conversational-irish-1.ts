@@ -1,6 +1,6 @@
-import type { LearningData } from '@/models/models';
+import type { MonthLearning } from '@/models/models';
 
-const monthOfConversationalIrish1: LearningData = {
+const monthOfConversationalIrish1: MonthLearning = {
   title: 'A Month of Conversational Irish',
   description: `This month-long plan focuses on building your conversational skills in Irish. We'll concentrate on practical phrases and sentences for everyday interactions, rather than deep grammar rules. The goal is to get you speaking comfortably.`,
   weeks: [

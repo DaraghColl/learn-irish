@@ -15,10 +15,10 @@ interface WeekLearning {
   days: DayLearning[];
 }
 
-interface LearningData {
+interface MonthLearning {
   title: string;
   description: string;
   weeks: WeekLearning[];
 }
 
-export type { LearningData, WeekLearning, DayLearning, TopicItem };
+export type { MonthLearning, WeekLearning, DayLearning, TopicItem };

@@ -28,7 +28,8 @@
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
       "@data/*": ["src/data/*"],
-      "@models/*": ["src/models/*"]
+      "@models/*": ["src/models/*"],
+      "@state/*": ["src/state/*"]
     }
   },
   "include": ["src"]

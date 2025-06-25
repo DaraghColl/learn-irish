@@ -1,3 +1,5 @@
+type Module = 'day' | 'week' | 'month';
+
 interface LearningItem {
   phrase: string;
   translation: string;
@@ -5,6 +7,7 @@ interface LearningItem {
 
 interface DayLearning {
   id: string;
+  moduleType: Module;
   title: string;
   description: string;
   day: number;
@@ -13,6 +16,7 @@ interface DayLearning {
 
 interface WeekLearning {
   id: string;
+  moduleType: Module;
   title: string;
   description: string;
   week: number;
@@ -21,6 +25,7 @@ interface WeekLearning {
 
 interface MonthLearning {
   id: string;
+  moduleType: Module;
   title: string;
   description: string;
   weeks: WeekLearning[];

@@ -2,17 +2,20 @@ import type { MonthLearning } from '@/models/models';
 
 const monthOfConversationalIrish1: MonthLearning = {
   id: 'month_module_0001',
+  moduleType: 'month',
   title: 'A Month of Conversational Irish',
   description: `This month-long plan focuses on building your conversational skills in Irish. We'll concentrate on practical phrases and sentences for everyday interactions, rather than deep grammar rules. The goal is to get you speaking comfortably.`,
   weeks: [
     {
       id: 'week_module_0001',
+      moduleType: 'week',
       title: 'Greetings & Personal Information',
       description: 'a weeks learning of geretings and personal information',
       week: 1,
       days: [
         {
           id: 'day_module_0001',
+          moduleType: 'day',
           title: 'Basic Greetings & Goodbyes',
           description: 'A day of basic greetings & goodbyes',
           day: 1,
@@ -30,6 +33,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0002',
+          moduleType: 'day',
           title: 'Asking How Someone Is',
           description: 'A day of asking how someone is',
           day: 2,
@@ -45,6 +49,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0003',
+          moduleType: 'day',
           title: 'Introducing Yourself',
           description: 'A day of introducing yourself',
           day: 3,
@@ -59,6 +64,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0004',
+          moduleType: 'day',
           title: 'Asking Where Someone is From',
           description: 'A day of asking where someone is from',
           day: 4,
@@ -70,6 +76,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0005',
+          moduleType: 'day',
           title: 'Review & Mini-Conversation Practice',
           description: 'A day of review and mini-conversation practice',
           day: 5,
@@ -81,6 +88,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0006',
+          moduleType: 'day',
           title: 'Weekend: Listen & Observe',
           description: 'A weekend day for listening and observing',
           day: 6,
@@ -91,6 +99,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0007',
+          moduleType: 'day',
           title: 'Weekend: Review & Consolidate',
           description: 'A weekend day for review and consolidation',
           day: 7,
@@ -104,11 +113,13 @@ const monthOfConversationalIrish1: MonthLearning = {
     {
       id: 'week_module_0002',
       title: 'Daily Activities & Past/Future',
+      moduleType: 'week',
       description: 'a weeks learning of daily activities & past/future',
       week: 2,
       days: [
         {
           id: 'day_module_0008',
+          moduleType: 'day',
           title: "Talking About Yesterday's Activities",
           description: "A day of talking about yesterday's activities",
           day: 8,
@@ -120,6 +131,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0009',
+          moduleType: 'day',
           title: "Talking About Today's Activities",
           description: "A day of talking about today's activities",
           day: 9,
@@ -131,6 +143,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0010',
+          moduleType: 'day',
           title: "Talking About Tomorrow's Activities",
           description: "A day of talking about tomorrow's activities",
           day: 10,
@@ -148,6 +161,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0011',
+          moduleType: 'day',
           title: "Asking About Others' Activities",
           description: "A day of asking about others' activities",
           day: 11,
@@ -159,6 +173,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0012',
+          moduleType: 'day',
           title: 'Talking About Hobbies/Interests',
           description: 'A day of talking about hobbies and interests',
           day: 12,
@@ -170,6 +185,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0013',
+          moduleType: 'day',
           title: 'Weekend: Immersion Practice',
           description: 'A weekend day for immersion practice',
           day: 13,
@@ -186,6 +202,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0014',
+          moduleType: 'day',
           title: 'Weekend: Review & Create',
           description: 'A weekend day for review and creation',
           day: 14,
@@ -204,12 +221,14 @@ const monthOfConversationalIrish1: MonthLearning = {
     },
     {
       id: 'week_module_0003',
+      moduleType: 'week',
       title: 'Weather & Opinions',
       description: 'a weeks learning of weather & opinions',
       week: 3,
       days: [
         {
           id: 'day_module_0015',
+          moduleType: 'day',
           title: 'Asking About the Weather',
           description: 'A day of asking about the weather',
           day: 15,
@@ -224,6 +243,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0016',
+          moduleType: 'day',
           title: 'Describing the Weather',
           description: 'A day of describing the weather',
           day: 16,
@@ -235,6 +255,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0017',
+          moduleType: 'day',
           title: 'Expressing Likes and Dislikes',
           description: 'A day of expressing likes and dislikes',
           day: 17,
@@ -247,6 +268,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0018',
+          moduleType: 'day',
           title: 'Giving Simple Opinions',
           description: 'A day of giving simple opinions',
           day: 18,
@@ -258,6 +280,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0019',
+          moduleType: 'day',
           title: 'Asking for and Offering Help',
           description: 'A day of asking for and offering help',
           day: 19,
@@ -269,6 +292,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0020',
+          moduleType: 'day',
           title: 'Weekend: Real-life Scenarios',
           description: 'A weekend day for real-life scenarios',
           day: 20,
@@ -285,6 +309,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0021',
+          moduleType: 'day',
           title: 'Weekend: Review & Expand',
           description: 'A weekend day for review and expansion',
           day: 21,
@@ -297,12 +322,14 @@ const monthOfConversationalIrish1: MonthLearning = {
     },
     {
       id: 'week_module_0004',
+      moduleType: 'week',
       title: 'Food & General Chat',
       description: 'a weeks learning of food & general chat',
       week: 4,
       days: [
         {
           id: 'day_module_0022',
+          moduleType: 'day',
           title: 'Talking About Food (Likes/Dislikes)',
           description: 'A day of talking about food (likes/dislikes)',
           day: 22,
@@ -314,6 +341,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0023',
+          moduleType: 'day',
           title: 'Asking About Food/Drink',
           description: 'A day of asking about food/drink',
           day: 23,
@@ -328,6 +356,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0024',
+          moduleType: 'day',
           title: 'Shopping & Prices (Basic)',
           description: 'A day of basic shopping and prices',
           day: 24,
@@ -339,6 +368,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0025',
+          moduleType: 'day',
           title: 'Making Plans (Simple)',
           description: 'A day of making simple plans',
           day: 25,
@@ -350,6 +380,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0026',
+          moduleType: 'day',
           title: 'General Chit-chat & Closing',
           description: 'A day of general chit-chat and closing phrases',
           day: 26,
@@ -361,6 +392,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0027',
+          moduleType: 'day',
           title: 'Weekend: Conversation Practice',
           description: 'A weekend day for conversation practice',
           day: 27,
@@ -374,6 +406,7 @@ const monthOfConversationalIrish1: MonthLearning = {
         },
         {
           id: 'day_module_0028',
+          moduleType: 'day',
           title: 'Weekend: Self-Assessment & Future Steps',
           description: 'A weekend day for self-assessment and future steps',
           day: 28,

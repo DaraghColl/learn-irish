@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { MonthLearning as MonthLearningI } from '@models/models';
 import { WeekLearning } from '@components/week-learning/week-learning';
+import { ModuleHeading } from '../module-heading/module-heading';
 
 interface MonthLearning {
   monthLearningData: MonthLearningI;
@@ -17,15 +18,9 @@ const MonthLearning = (props: MonthLearning) => {
 
   return (
     <>
-      <div className="mb-10">
-        <h1 className="mb-4 text-2xl font-bold tracking-wide text-gray-950 lg:text-center lg:text-4xl">
-          {title}
-        </h1>
-        <h2 className="text-sm text-gray-500 lg:text-lg">{description}</h2>
-      </div>
-
+      <ModuleHeading title={title} description={description} />
       <>
-        <WeekLearning weeks={weeks} currentWeek={currentWeek} />
+        <WeekLearning week={weeks[currentWeek]} />
         <div className="mt-5 flex justify-center gap-4">
           <button
             type="button"

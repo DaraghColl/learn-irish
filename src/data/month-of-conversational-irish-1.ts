@@ -38,7 +38,14 @@ const monthOfConversationalIrish1: MonthLearning = {
           description: 'A day of asking how someone is',
           day: 2,
           learningItems: [
-            { phrase: 'Cad é mar atá tú?', translation: 'How are you? (informal, to one person)' },
+            {
+              phrase: 'Go dté mar atá tú?',
+              translation: 'How are you? (informal, to one person)',
+            },
+            {
+              phrase: 'An bhfuil tú go maith',
+              translation: 'Are you good? (informal, to one person)',
+            },
             {
               phrase: 'Tá mé go maith, go raibh maith agat.',
               translation: 'I am well, thank you.',

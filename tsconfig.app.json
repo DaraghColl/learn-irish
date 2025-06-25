@@ -29,7 +29,8 @@
       "@components/*": ["src/components/*"],
       "@data/*": ["src/data/*"],
       "@models/*": ["src/models/*"],
-      "@state/*": ["src/state/*"]
+      "@state/*": ["src/state/*"],
+      "@features/*": ["src/features/*"]
     }
   },
   "include": ["src"]

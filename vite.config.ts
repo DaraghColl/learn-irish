@@ -13,6 +13,7 @@ export default defineConfig({
       '@data': path.resolve(__dirname, './src/data'),
       '@models': path.resolve(__dirname, './src/models'),
       '@state': path.resolve(__dirname, './src/state'),
+      '@features': path.resolve(__dirname, './src/features'),
     },
   },
   plugins: [react(), tailwindcss()],

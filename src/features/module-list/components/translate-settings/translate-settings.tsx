@@ -12,7 +12,7 @@ const TranslateSettings = () => {
   return (
     <div className="mb-2 flex rounded-sm border-1 border-gray-200">
       <button
-        className="flex w-1/2 cursor-pointer justify-center rounded-l-sm border-r-2 border-gray-200 p-2 hover:bg-gray-100"
+        className="flex w-1/2 cursor-pointer justify-center rounded-l-sm border-r-2 border-gray-200 p-2 hover:bg-gray-50"
         onClick={() => setTranslationFlipped(!translationFlipped)}
       >
         <div className="flex w-full items-center gap-2">
@@ -24,7 +24,7 @@ const TranslateSettings = () => {
         </div>
       </button>
       <button
-        className="flex w-1/2 cursor-pointer justify-center gap-2 rounded-r-sm p-2 hover:bg-gray-100"
+        className="flex w-1/2 cursor-pointer justify-center gap-2 rounded-r-sm p-2 hover:bg-gray-50"
         onClick={() => setShowAllTranslationValue(!showAllTranslationValue)}
       >
         {showAllTranslationValue ? (

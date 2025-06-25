@@ -2,7 +2,7 @@ import type { WeekLearning } from '@/models/models';
 
 const weekOfGreetingsAndPersonalInformation: WeekLearning = {
   id: 'week_module_0001',
-  moduleType: 'day',
+  moduleType: 'week',
   title: 'Greetings & Personal Information',
   description: 'a weeks learning of geretings and personal information',
   week: 1,

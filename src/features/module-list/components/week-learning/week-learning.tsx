@@ -1,7 +1,7 @@
 import type { WeekLearning as WeekLearningI } from '@models/models';
-import { TranslateSettings } from '@components/translate-settings/translate-settings';
-import { DayLearning } from '@components/day-learning/day-learning';
-import { ModuleHeading } from '@components/module-heading/module-heading';
+import { TranslateSettings } from '../translate-settings/translate-settings';
+import { DayLearning } from '../day-learning/day-learning';
+import { ModuleHeading } from '../module-heading/module-heading';
 
 interface WeekLearningProps {
   week: WeekLearningI;

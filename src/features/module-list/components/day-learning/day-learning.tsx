@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
 import type { DayLearning as DayLearningI } from '@models/models';
-import { LearningItem } from '@/components/learning-item/learning-item';
-import { ModuleHeading } from '@components/module-heading/module-heading';
-import { TranslateSettings } from '@components/translate-settings/translate-settings';
+import { LearningItem } from '../learning-item/learning-item';
+import { ModuleHeading } from '../module-heading/module-heading';
+import { TranslateSettings } from '../translate-settings/translate-settings';
 
 interface DayLearningProps {
   dayLearning: DayLearningI;
@@ -28,7 +28,7 @@ const DayLearning = (props: DayLearningProps) => {
 
       <div className="rounded-md border-1 border-gray-100">
         <button
-          className="flex w-full cursor-pointer items-center justify-between gap-4 rounded-t-md bg-gray-100 p-4"
+          className="flex w-full cursor-pointer items-center justify-between gap-4 rounded-t-md bg-gray-50 p-4"
           onClick={() => setIsDayOpen(!isDayOpen)}
         >
           <div className="flex items-center gap-4">

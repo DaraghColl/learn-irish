@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { MonthLearning as MonthLearningI } from '@models/models';
-import { WeekLearning } from '@components/week-learning/week-learning';
+import { WeekLearning } from '../week-learning/week-learning';
 import { ModuleHeading } from '../module-heading/module-heading';
 
 interface MonthLearning {
